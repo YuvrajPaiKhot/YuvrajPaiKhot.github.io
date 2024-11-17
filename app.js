@@ -43,3 +43,5 @@ reset.addEventListener("click",()=>{
     });
     fontClick = 0;
 });
+
+
