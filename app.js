@@ -5,12 +5,6 @@ accessibleButton.addEventListener("click",()=>{
     accessibleOptions.classList.toggle("unhide");
 });
 
-let cross = document.querySelector(".accessibility-title span");
-
-cross.addEventListener("click",()=>{
-    accessibleOptions.classList.toggle("unhide");
-});
-
 let fontMinus = document.querySelector(".accessibility-font-size .fa-circle-minus");
 let elements = document.querySelectorAll("*:not(.accessibility-options)");
 let fontClick = 0;
@@ -49,5 +43,3 @@ reset.addEventListener("click",()=>{
     });
     fontClick = 0;
 });
-
-
