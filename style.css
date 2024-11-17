@@ -731,15 +731,6 @@
     margin-top: 0.7rem;
 }
 
-.accessibility-title span{
-    margin-left: 2.8rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.accessibility-title span:hover{
-    cursor: pointer;
-}
-
 .accessibility-font-size{
     display: flex;
     align-items: center;
@@ -791,6 +782,7 @@
     border: none;
     font: inherit;
     cursor: pointer;
+    overflow: visible;
 }
 
 .reset:active{
