@@ -24,7 +24,7 @@ fontMinus.addEventListener("click", () => {
 let fontPlus = document.querySelector(".accessibility-font-size .fa-circle-plus");
 
 fontPlus.addEventListener("click",()=>{
-    if(fontClick > -5){
+    if(fontClick > -3){
         fontClick-=1;
         elements.forEach((element) => {
             let currentFontSize = window.getComputedStyle(element).fontSize;
