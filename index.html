@@ -22,25 +22,6 @@
         </div>
     </nav>
 
-    <div class="accessibility-options unhide">
-        <div class="accessibility-title">
-            <h4>Accessibility Settings</h4>
-        </div>
-        <button class="reset">Reset Settings</button>
-        <p>FONT SIZE</p>
-        <div class="accessibility-font-size">
-            <small class="small">A</small>
-            <i class="fa-solid fa-circle-minus"></i>
-            <small class="default">DEFAULT</small>
-            <i class="fa-solid fa-circle-plus"></i>
-            <small class="big">A</small>
-        </div>
-    </div>
-
-    <div class="accessible-button">
-        <i class="fa-solid fa-person" style="overflow: visible;"></i>
-    </div>
-
     <div class="landing">
         <div class="bold-name">Yuvraj Pai Khot</div>
         <a href="#about-me"><div class="explore">Explore</div></a>
@@ -51,7 +32,7 @@
             <img src="./assets/Yuvraj Photo new.jpg" alt="Photo of Yuvraj">
         </div>
         <div class="about-me">
-            <div class="about-title">
+            <div class="about-title" style="font-size: 1.8rem;">
                 <h1>ABOUT</h1>
             </div>
             <div class="about-content">
@@ -189,7 +170,10 @@
                     <h2>Digisol Systems Ltd.</h2>
                     <div class="divider"></div>
                     <small>(Summer Internship)</small>
-                    <p>Acquired in-depth knowledge and hands-on experience in the operation, manufacturing, assembly, and testing of Wi-Fi routers, access points, switches, PCBs, and fiber optic cables</p>
+                    <p>Engineered an automated PCB defect detection system by training an efficient YOLO11n model which achieved 0.94 
+                        mAP@50 for identifying 6 distinct defect types. The project involved preprocessing XML and image data and 
+                        culminated in a Streamlit web application for interactive visual inspection, significantly enhancing quality control capabilities.
+                    </p>
                 </div>
             </div>
         </div>
@@ -209,11 +193,29 @@
                 </div>
             </a>
             <a href="https://www.youtube.com/watch?v=rvQAMkzaSlM" target="_blank" style="text-decoration: none;">
-                <div class="card project-card click-card">
+                <div class="card project-card click-card" id="project-card-2">
                     <h2>TrackSpense</h2>
                     <div class="divider"></div>
-                    <small>(An expense tracking app)</small>
-                    <p>Built an expense tracker app with an intuitive interface, secure authentication and passcode features. Used Google Firestore for data storage, and created custom queries for transaction filtering</p>
+                    <small>(Capstone Project)</small>
+                    <p>
+                        <ul>
+                            <li>
+                                Developed a deepfake detection system using ResNeXt for spatial feature extraction and LSTM for
+                                temporal analysis on the FaceForensics++ dataset. Designed a preprocessing pipeline to extract and align
+                                facial features from video frames.
+                            </li>
+                            <br>
+                            <li>
+                                 Implemented transfer learning and data augmentation to improve model robustness against variations in
+                                deepfake manipulations.
+                            </li>
+                            <br>
+                            <li>
+                                 Optimized the architecture through hyperparameter tuning and dropout regularization, achieving high
+                                accuracy in distinguishing real and fake videos.
+                            </li>
+                        </ul>
+                    </p>
                 </div>
             </a>
         </div>
@@ -246,7 +248,5 @@
     <footer>
         <p style="text-align: center; margin-bottom: 2rem;">Made with <span style="color: red;">&hearts;</span> by Yuvraj Pai Khot</p>
     </footer>
-
-    <script src="app.js"></script>
 </body>
 </html>
